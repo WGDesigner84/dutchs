@@ -1,0 +1,74 @@
+
+
+/*---------SCSS INHERITENCE--------------*/
+
+
+.servicelorem1{
+    font-size:16px;
+    padding:13px 12px 15px 12px;
+    text-align: center;
+    }
+
+
+  .servicelorem2{
+    @extend .servicelorem1
+    }
+  
+    
+
+    .servicelorem3{
+        @extend .servicelorem1
+        }
+    
+
+
+
+
+
+
+
+
+/*---------------SCSS VARIABLES-----------------*/
+$mybg:rgb(0, 0, 0);
+$mycolor:#FFFFFF;
+$mywidth:100%;
+$myheight:70px;
+
+
+
+.footer{
+background:$mybg;
+color:$mycolor;
+width:$mywidth;
+height:$myheight;}
+
+
+
+
+
+
+
+/*-------------SCSS Nesting-----------------------*/
+
+navbar{
+  
+    ul{margin: 0;
+       padding: 0;
+       list-style: none;
+       margin-top: 42px;}
+
+   li{
+
+   
+   }
+
+
+   a{
+       text-decoration: none;
+       color: rgb(250, 171, 25);
+       line-height: 35px;
+   }
+    
+
+
+}

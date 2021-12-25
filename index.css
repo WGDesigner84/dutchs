@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Raleway:wght@500;800&display=swap');
+
+
+.welcome{
+color:#FFFFFF;
+font-size:65px;
+text-align: center;
+margin-top:250px;
+position:absolute;
+font-weight:bold;
+margin-left:26%;}
+
+
+.title{
+text-align: center;
+font-size:48px;
+font-weight:bold;}
+
+.dash{
+width:180px;
+height:7px;
+background:#FF6600;}
+
+
+.aboutimg{
+width:390px;
+height:320px;
+outline:6px solid #FF6600;
+outline-offset:7px;}
+
+
+#zuka{
+font-size:32px;
+font-weight:bold;}
+
+
+#button{
+width:280px;
+height:55px;
+border-radius:17px;
+ background:#FF6600;
+ border:none;}
+ 
+ 
+#button:hover{
+background:#FF9900;
+transition:0.7s;} 
+
+ 
+
+.aboutme{
+font-size:17px;
+line-height:26px;
+}
+
+
+
+
+
+
+
+
+.service{
+background:#000000;
+color:#FFFFFF;
+margin:120px 0px 0px 0px;
+width:100%;
+height:auto;
+}
+
+.box1{
+background: #333333;
+width:100%;
+height:auto;
+border-radius:16px;
+margin:30px 0px 80px 0px;}
+
+
+.box2{background: #333333;
+width:100%;
+height:auto;
+border-radius:16px;
+margin:30px 0px 80px 0px;}
+
+
+.box3{background: #333333;
+width:100%;
+height:auto;
+border-radius:16px;
+margin:30px 0px 80px 0px;}
+
+
+#icon1{
+color:#FF6600;
+font-size:45px;
+margin:20px 0px 14px 0px;}
+
+
+#icon2{
+color:#FF6600;
+font-size:45px;
+margin:20px 0px 14px 0px;}
+
+
+#icon3{
+color:#FF6600;
+font-size:45px;
+margin:20px 0px 14px 0px;}
+
+
+.servicetxt{
+font-size:28px;
+text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+.skilltxt{
+font-size:28px;
+font-weight:bold;}
+
+
+uli{
+font-size:18px;}
+
+
+
+
+
+
+
+.contact{
+background:#E5E5E5;
+margin:90px 0px 0px 0px;}
+
+
+
+
+
+.footertxt{
+text-align:center;
+margin:22px 0px 0px 0px;
+font-weight:bold;
+font-size:20px;}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.welcome{
+color:#FFFFFF;
+font-size:35px;
+text-align: center;
+margin-top:250px;
+position:absolute;
+font-weight:bold;
+margin-left:4%;}
+
+
+.aboutimg{
+width:100%;
+height:230px;
+outline:none;
+outline-offset:0px;}
+
+
+#zuka{
+font-size:32px;
+font-weight:bold;
+margin:12px 0px 10px 4px;}
+
+
+.title{
+font-size:38px;
+}
+
+
+.footertxt{
+text-align:center;
+margin:22px 0px 10px 0px;
+font-weight:bold;
+font-size:16px;}
+
+
+.service{
+width:100%;
+height:auto;}
+
+
+
+}
+
